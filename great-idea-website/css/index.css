@@ -54,7 +54,8 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	width: 1000px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -63,4 +64,88 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+header nav {
+	margin: 0;
+	display: inline-block;
+	margin-bottom: 60px;
+
+	
+
+}
+header nav a {
+	text-decoration: none;
+	color: lightgray;
+	padding: 30px;
+}
+
 /* Your code starts here! */
+
+main h1 {
+font-size: 70px;
+
+
+}
+
+main section {
+	text-align: center;
+	display: inline-block;
+	margin: 0px 60px 60px 60px;
+}
+
+button {
+	font-size: 15px;
+	padding: 5px 40px; 
+}
+
+.circle-img {
+	display: inline-block;
+	
+
+	
+}
+
+.first-section {
+border-top: 1px solid black;
+padding-top: 40px;
+padding-bottom: 40px;
+}
+
+.first-section .nav-items {
+	width: 400px;
+	margin: 10px;
+
+}
+
+
+.nav-items {
+	display: inline-block;
+	width: 400px;
+}
+.second-section {
+	border-bottom: 1px solid black;
+	padding-bottom: 40px;
+	padding-top: 40px;
+	margin-bottom: 40px;
+}
+
+.second-section .nav-items {
+ width: 300px;
+ padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#copy {
+	text-align: center;
+	margin-bottom: 200px;
+	margin-top: 40px;
+}
